@@ -1,0 +1,15 @@
+2016-03-05T13:04:04.956395000 0.789014s notice: Recursively removing directory /Users/Doulatshahi/sideprojects/calcutta/rethinkdb_data/tmp
+2016-03-05T13:04:04.957953000 0.790579s notice: Initializing directory /Users/Doulatshahi/sideprojects/calcutta/rethinkdb_data
+2016-03-05T13:04:04.958100000 0.790719s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/Doulatshahi/sideprojects/calcutta/rethinkdb_data' did not already exist or is empty.)
+2016-03-05T13:04:04.958142000 0.790760s notice: Running rethinkdb 2.2.5 (CLANG 7.0.2 (clang-700.1.81))...
+2016-03-05T13:04:05.051099000 0.883719s notice: Running on Darwin 15.0.0 x86_64
+2016-03-05T13:04:05.051208000 0.883826s notice: Loading data from directory /Users/Doulatshahi/sideprojects/calcutta/rethinkdb_data
+2016-03-05T13:04:06.883401000 2.716066s info: Automatically using cache size of 100 MB
+2016-03-05T13:04:06.883431000 2.716096s warn: Cache size does not leave much memory for server and query overhead (available memory: 621 MB).
+2016-03-05T13:04:06.883439000 2.716104s warn: Cache size is very low and may impact performance.
+2016-03-05T13:04:06.884167000 2.716832s notice: Listening for intracluster connections on port 29015
+2016-03-05T13:04:06.886259000 2.718924s notice: Listening for client driver connections on port 28015
+2016-03-05T13:04:06.886502000 2.719167s notice: Listening for administrative HTTP connections on port 8080
+2016-03-05T13:04:06.886512000 2.719177s notice: Listening on addresses: 127.0.0.1, ::1
+2016-03-05T13:04:06.886513000 2.719178s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-03-05T13:04:06.886516000 2.719181s notice: Server ready, "Pauls_MBP_3_T_mobile_com_bsb" 73dfcc36-fafe-484b-9c81-4428e827e23d

@@ -25,8 +25,7 @@ defmodule Chat.Mixfile do
     [{:phoenix, "~> 1.1.2"},
      {:phoenix_html, "~> 2.4"},
      {:phoenix_live_reload, "~> 1.0", only: :dev},
-     {:phoenix_ecto, "~> 1.1"},
-     {:postgrex, ">= 0.0.0"},
+     {:exrethinkdb, github: "hamiltop/exrethinkdb", ref: "55fb5b5ed892f28b7ae8ee1b2f8e54fb651bd611"},
      {:cowboy, "~> 1.0"}]
   end
 end
