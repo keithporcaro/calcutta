@@ -13,3 +13,11 @@
 2016-03-05T13:04:06.886512000 2.719177s notice: Listening on addresses: 127.0.0.1, ::1
 2016-03-05T13:04:06.886513000 2.719178s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
 2016-03-05T13:04:06.886516000 2.719181s notice: Server ready, "Pauls_MBP_3_T_mobile_com_bsb" 73dfcc36-fafe-484b-9c81-4428e827e23d
+2016-03-05T13:42:04.762987000 1785.938136s info: Table fe09b543-2c05-4bb9-9be1-83d2c6bad767: Added replica on this server.
+2016-03-05T13:42:06.142525000 1787.317721s info: Table fe09b543-2c05-4bb9-9be1-83d2c6bad767: Starting a new Raft election for term 1.
+2016-03-05T13:42:06.302494000 1787.477690s info: Table fe09b543-2c05-4bb9-9be1-83d2c6bad767: This server is Raft leader for term 1. Latest log index is 0.
+2016-03-05T13:42:31.813557000 1812.989408s notice: Removing file /Users/Doulatshahi/sideprojects/calcutta/rethinkdb_data/fe09b543-2c05-4bb9-9be1-83d2c6bad767
+2016-03-05T13:42:31.813571000 1812.989422s info: Table fe09b543-2c05-4bb9-9be1-83d2c6bad767: Deleted the table.
+2016-03-05T13:42:41.024639000 1822.200724s info: Table 7326eee0-f7db-4789-ace3-44506e851e27: Added replica on this server.
+2016-03-05T13:42:42.690550000 1823.866682s info: Table 7326eee0-f7db-4789-ace3-44506e851e27: Starting a new Raft election for term 1.
+2016-03-05T13:42:42.908367000 1824.084499s info: Table 7326eee0-f7db-4789-ace3-44506e851e27: This server is Raft leader for term 1. Latest log index is 0.
