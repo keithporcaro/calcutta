@@ -45,7 +45,23 @@ defmodule Chat.RoomChannel do
   end
 
   def handle_in("new:bid", bid, socket) do
-    broadcast! socket, "new:bid", %{user: bid["user"], body: bid["body"]}
-    {:reply, {:ok, %{msg: bid["body"]}}, assign(socket, :user, bid["user"])}
+    handle_bid(socket, bid["user"], String.to_integer(bid["body"]))
   end
+
+  def handle_bid(socket, user, amount) when amount > 3 do
+    string_amount = Integer.to_string(amount)
+    broadcast! socket, "new:bid", %{user: user, body: string_amount}
+    {:reply, {:ok, %{msg: string_amount}}, assign(socket, :user, user)}
+  end
+
+  def handle_bid(socket, user, amount) do
+    string_amount = Integer.to_string(amount)
+    broadcast! socket, "new:msg", %{user: user, body: string_amount}
+    {:reply, {:ok, %{msg: string_amount}}, assign(socket, :user, user)}
+  end
+
+
+  
+
+
 end
