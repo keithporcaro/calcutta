@@ -1,6 +1,8 @@
 {application,plug,
              [{registered,[]},
               {description,"A specification and conveniences for composable modules between web applications"},
+              {applications,[kernel,stdlib,elixir,crypto,logger]},
+              {mod,{'Elixir.Plug',[]}},
               {vsn,"1.1.0"},
               {modules,['Elixir.Collectable.Plug.Conn',
                         'Elixir.Inspect.Plug.Conn','Elixir.Plug',
@@ -43,6 +45,4 @@
                         'Elixir.Plug.Static',
                         'Elixir.Plug.Static.InvalidPathError',
                         'Elixir.Plug.Supervisor','Elixir.Plug.Test',
-                        'Elixir.Plug.Upload']},
-              {applications,[kernel,stdlib,elixir,crypto,logger]},
-              {mod,{'Elixir.Plug',[]}}]}.
+                        'Elixir.Plug.Upload']}]}.

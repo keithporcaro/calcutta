@@ -1,24 +1,3 @@
-v2.
-{<<"/Users/Doulatshahi/sideprojects/calcutta/_build/dev/lib/phoenix_live_reload/ebin/Elixir.Phoenix.LiveReloader.Socket.beam">>,
- 'Elixir.Phoenix.LiveReloader.Socket',module,
- <<"lib/phoenix_live_reload/socket.ex">>,
- ['Elixir.Phoenix.Transports.WebSocket','Elixir.Kernel','Elixir.Phoenix',
-  'Elixir.Module','Elixir.Phoenix.Transports.LongPoll',
-  'Elixir.Phoenix.Socket'],
- [],[],nil}.
-{<<"/Users/Doulatshahi/sideprojects/calcutta/_build/dev/lib/phoenix_live_reload/ebin/Elixir.Phoenix.LiveReload.Channel.beam">>,
- 'Elixir.Phoenix.LiveReload.Channel',module,
- <<"lib/phoenix_live_reload/channel.ex">>,
- ['Elixir.Kernel','Elixir.Phoenix.Channel','Elixir.Module',
-  'Elixir.Phoenix.Socket'],
- [erlang,fs,'Elixir.Path','Elixir.String','Elixir.Enum','Elixir.String.Chars',
-  'Elixir.Access','Elixir.Application'],
- [],nil}.
-{<<"/Users/Doulatshahi/sideprojects/calcutta/_build/dev/lib/phoenix_live_reload/ebin/Elixir.Phoenix.LiveReloader.beam">>,
- 'Elixir.Phoenix.LiveReloader',module,
- <<"lib/phoenix_live_reload/live_reloader.ex">>,
- ['Elixir.File','Elixir.Plug.Conn','Elixir.Kernel','Elixir.Plug',
-  'Elixir.Module','Elixir.Application'],
- [erlang,'Elixir.Path','Elixir.String','Elixir.Enum','Elixir.String.Chars',
-  'Elixir.Access','Elixir.Map'],
- [],nil}.
+/Users/kporcaro/Dropbox (Personal)/calcutta/_build/dev/lib/phoenix_live_reload/ebin/Elixir.Phoenix.LiveReloader.Socket.beam	Elixir.Phoenix.LiveReloader.Socket	lib/phoenix_live_reload/socket.ex	Elixir.Kernel	Elixir.Module	Elixir.Phoenix	Elixir.Phoenix.Socket	Elixir.Phoenix.Transports.LongPoll	Elixir.Phoenix.Transports.WebSocket	Elixir
+/Users/kporcaro/Dropbox (Personal)/calcutta/_build/dev/lib/phoenix_live_reload/ebin/Elixir.Phoenix.LiveReload.Channel.beam	Elixir.Phoenix.LiveReload.Channel	lib/phoenix_live_reload/channel.ex	Elixir.Access	Elixir.Application	Elixir.Enum	Elixir.Kernel	Elixir.Module	Elixir.Path	Elixir.Phoenix.Channel	Elixir.Phoenix.Socket	Elixir.String	Elixir.String.Chars	erlang	fs	Elixir
+/Users/kporcaro/Dropbox (Personal)/calcutta/_build/dev/lib/phoenix_live_reload/ebin/Elixir.Phoenix.LiveReloader.beam	Elixir.Phoenix.LiveReloader	lib/phoenix_live_reload/live_reloader.ex	Elixir.Access	Elixir.Access.Map	Elixir.Application	Elixir.Enum	Elixir.File	Elixir.Kernel	Elixir.Module	Elixir.Path	Elixir.Plug	Elixir.Plug.Conn	Elixir.String	Elixir.String.Chars	erlang	Elixir

@@ -1,6 +1,8 @@
 defmodule Chat.RoomChannel do
   use Phoenix.Channel
   require Logger
+  import RethinkDB.Query
+  alias Chat.Repo
 
   @doc """
   Authorize socket to subscribe and broadcast events on this channel & topic
@@ -48,8 +50,10 @@ defmodule Chat.RoomChannel do
     handle_bid(socket, bid["user"], String.to_integer(bid["body"]))
   end
 
-  def handle_bid(socket, user, amount) when amount > 3 do
+  def handle_bid(socket, user, amount) do
     string_amount = Integer.to_string(amount)
+    q = table("liveauction") |> Query.get_all(%{})
+    q = table("liveauction") |> insert(%{league: "1293819df9", item: 64, bid: string_amount}) |> Repo.run
     broadcast! socket, "new:bid", %{user: user, body: string_amount}
     {:reply, {:ok, %{msg: string_amount}}, assign(socket, :user, user)}
   end
@@ -61,7 +65,7 @@ defmodule Chat.RoomChannel do
   end
 
 
-  
+
 
 
 end

@@ -1,6 +1,7 @@
 {application,phoenix_html,
              [{registered,[]},
               {description,"Phoenix.HTML functions for working with HTML strings and templates"},
+              {applications,[kernel,stdlib,elixir,logger,plug]},
               {vsn,"2.5.0"},
               {modules,['Elixir.Phoenix.HTML','Elixir.Phoenix.HTML.Engine',
                         'Elixir.Phoenix.HTML.Form',
@@ -14,5 +15,4 @@
                         'Elixir.Phoenix.HTML.Safe.Integer',
                         'Elixir.Phoenix.HTML.Safe.List',
                         'Elixir.Phoenix.HTML.Safe.Tuple',
-                        'Elixir.Phoenix.HTML.Tag']},
-              {applications,[kernel,stdlib,elixir,logger,plug]}]}.
+                        'Elixir.Phoenix.HTML.Tag']}]}.
