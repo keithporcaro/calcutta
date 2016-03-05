@@ -21,3 +21,15 @@
 2016-03-05T13:42:41.024639000 1822.200724s info: Table 7326eee0-f7db-4789-ace3-44506e851e27: Added replica on this server.
 2016-03-05T13:42:42.690550000 1823.866682s info: Table 7326eee0-f7db-4789-ace3-44506e851e27: Starting a new Raft election for term 1.
 2016-03-05T13:42:42.908367000 1824.084499s info: Table 7326eee0-f7db-4789-ace3-44506e851e27: This server is Raft leader for term 1. Latest log index is 0.
+2016-03-05T14:24:01.110925000 4302.351139s info: Table e342b05a-97cb-48bf-9f72-dd33c9757c41: Added replica on this server.
+2016-03-05T14:24:02.957656000 4304.197911s info: Table e342b05a-97cb-48bf-9f72-dd33c9757c41: Starting a new Raft election for term 1.
+2016-03-05T14:24:03.118946000 4304.359201s info: Table e342b05a-97cb-48bf-9f72-dd33c9757c41: This server is Raft leader for term 1. Latest log index is 0.
+2016-03-05T14:24:06.541332000 4307.781681s notice: Removing file /Users/Doulatshahi/sideprojects/calcutta/rethinkdb_data/7326eee0-f7db-4789-ace3-44506e851e27
+2016-03-05T14:24:06.541345000 4307.781693s info: Table 7326eee0-f7db-4789-ace3-44506e851e27: Deleted the table.
+2016-03-05T14:24:30.975111000 4332.216115s info: Table 47d7762a-a8a9-455f-8c16-6c5011f48f59: Added replica on this server.
+2016-03-05T14:24:32.783972000 4334.024976s info: Table 47d7762a-a8a9-455f-8c16-6c5011f48f59: Starting a new Raft election for term 1.
+2016-03-05T14:24:33.035014000 4334.276065s info: Table 47d7762a-a8a9-455f-8c16-6c5011f48f59: This server is Raft leader for term 1. Latest log index is 0.
+2016-03-05T14:28:31.134620000 4572.381801s notice: Removing file /Users/Doulatshahi/sideprojects/calcutta/rethinkdb_data/47d7762a-a8a9-455f-8c16-6c5011f48f59
+2016-03-05T14:28:31.134648000 4572.381850s info: Table 47d7762a-a8a9-455f-8c16-6c5011f48f59: Deleted the table.
+2016-03-05T14:28:35.568075000 4576.815350s notice: Removing file /Users/Doulatshahi/sideprojects/calcutta/rethinkdb_data/e342b05a-97cb-48bf-9f72-dd33c9757c41
+2016-03-05T14:28:35.568085000 4576.815360s info: Table e342b05a-97cb-48bf-9f72-dd33c9757c41: Deleted the table.
